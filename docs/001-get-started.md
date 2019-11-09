@@ -5,7 +5,7 @@
    ```shell
    npm install @storybook/react --save-dev
    ```
-   2.Add react, react-dom, @babel/core, and babel-loader
+   2. Add react, react-dom, @babel/core, and babel-loader
    ```shell
     npm install react react-dom --save
     npm install babel-loader @babel/core --save-dev 
