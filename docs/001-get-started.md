@@ -33,12 +33,14 @@
     export const withEmoji = () => (
       <Button><span role="img" aria-label="so cool">😀 😎 👍 💯</span></Button>
     );
+   ```
 
-    results:
+   ~~~
+   results:
     Button
     ├── With Text
     └── With Emoji
-   ```
+   ~~~
 5. Run it
    ```shell
    npm run storybook
