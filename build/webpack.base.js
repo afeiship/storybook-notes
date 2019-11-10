@@ -25,6 +25,11 @@ export default (inEnv) => {
         }
       ]
     },
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, '../src')
+      }
+    },
     plugins: [
       new HtmlWepbackPlugin({
         template: './public/index.html'
