@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server",
     "build": "cross-env NODE_ENV=production webpack -p",
-    "story": "start-storybook"
+    "storybook": "start-storybook"
   },
   "license": "MIT",
   "devDependencies": {
