@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './button';
 
 export default class extends React.Component {
   render() {
@@ -6,6 +7,7 @@ export default class extends React.Component {
       <div className="hello">
         <h1>Hello world!</h1>
         <p>It works!</p>
+        <Button>TEST button</Button>
       </div>
     );
   }
