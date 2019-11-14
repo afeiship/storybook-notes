@@ -1,3 +1,4 @@
+import path from 'path';
 import HtmlWepbackPlugin from 'html-webpack-plugin';
 
 export default (inEnv) => {
