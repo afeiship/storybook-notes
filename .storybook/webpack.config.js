@@ -8,10 +8,6 @@ module.exports = async ({ config, mode }) => {
     (rule) => rule.test.toString() === '/\\.css$/'
   ).exclude = /\.module\.css$/;
 
-  config.module.rules.find(
-    (rule) => rule.test.toString() === '/\\.css$/'
-  ).exclude = /\.module\.css$/;
-
   config.module.rules.push({
     test: /\.module\.css$/,
     use: [
@@ -24,6 +20,7 @@ module.exports = async ({ config, mode }) => {
       }
     ]
   });
+
   config.module.rules.push({
     test: /\.scss$/,
     use: ['style-loader', 'css-loader', 'sass-loader'],
