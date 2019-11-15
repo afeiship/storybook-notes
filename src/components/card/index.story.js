@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import Card from '.';
 
-storiesOf('CardComponent')
+storiesOf('Demo|CardComponent')
   .add('CardWithText', () => {
     return <Card>Text</Card>;
   })
